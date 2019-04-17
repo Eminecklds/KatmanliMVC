@@ -1,0 +1,41 @@
+﻿@model Rehber.MVC.Models.HomeViewModel
+<div class="row">
+    <div class="col-md-6">
+        <div>
+            @Html.ActionLink("Yeni Kişi", "KisiEkle", "Kisi", null, new { @class = "btn btn-success" })
+        </div>
+        <br />
+        <ul class="list-group">
+            <li class="list-group-item active">
+                <h4>Kişiler</h4>
+            </li>
+            @foreach (var item in Model.Kisiler)
+            {
+                <li class="list-group-item">
+                    @Html.ActionLink("Kişi Güncelle", "KisiGuncelle", "Kisi", new { id = item.KisiID }, new { @class = "btn btn-warning" })
+                    @Html.ActionLink("Kişi Sil", "KisiSil", "Kisi", new { id = item.KisiID }, new { @class = "btn btn-danger" })
+                    <span class="glyphicon glyphicon-user"></span>@(item.Adi + " " + item.Soyadi + " " + "(" + item.Yas + ")")
+                </li>
+            }
+        </ul>
+    </div>
+    <div class="col-md-6">
+        <div>
+            @Html.ActionLink("Yeni Adres", "AdresEkle", "Adres", null, new { @class = "btn btn-success" })
+        </div>
+        <br />
+        <ul class="list-group">
+            <li class="list-group-item active">
+                <h4>Adresler</h4>
+            </li>
+            @foreach (var item in Model.Adresler)
+            {
+                <li class="list-group-item">
+                    @Html.ActionLink("Adres Güncelle", "AdresGuncelle", "Adres", new { id = item.AdresID }, new { @class = "btn btn-warning" })
+                    @Html.ActionLink("Adres Sil", "AdresSil", "Adres", new { id = item.AdresID }, new { @class = "btn btn-danger" })
+                    <span class="glyphicon glyphicon-home"></span>@(item.Il + "/" + item.Ilce)
+                </li>
+            }
+        </ul>
+    </div>
+</div>

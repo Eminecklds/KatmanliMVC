@@ -1,0 +1,12 @@
+C:\Users\Section1\Desktop\20-02-2019\KatmanliMVCRehber\Rehber.Entities\bin\Debug\Rehber.Entities.dll.config
+C:\Users\Section1\Desktop\20-02-2019\KatmanliMVCRehber\Rehber.Entities\bin\Debug\Rehber.Entities.dll
+C:\Users\Section1\Desktop\20-02-2019\KatmanliMVCRehber\Rehber.Entities\bin\Debug\Rehber.Entities.pdb
+C:\Users\Section1\Desktop\20-02-2019\KatmanliMVCRehber\Rehber.Entities\bin\Debug\EntityFramework.dll
+C:\Users\Section1\Desktop\20-02-2019\KatmanliMVCRehber\Rehber.Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Section1\Desktop\20-02-2019\KatmanliMVCRehber\Rehber.Entities\bin\Debug\EntityFramework.xml
+C:\Users\Section1\Desktop\20-02-2019\KatmanliMVCRehber\Rehber.Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Section1\Desktop\20-02-2019\KatmanliMVCRehber\Rehber.Entities\obj\Debug\Rehber.Entities.csprojAssemblyReference.cache
+C:\Users\Section1\Desktop\20-02-2019\KatmanliMVCRehber\Rehber.Entities\obj\Debug\Rehber.Entities.csproj.CoreCompileInputs.cache
+C:\Users\Section1\Desktop\20-02-2019\KatmanliMVCRehber\Rehber.Entities\obj\Debug\Rehber.Entities.csproj.CopyComplete
+C:\Users\Section1\Desktop\20-02-2019\KatmanliMVCRehber\Rehber.Entities\obj\Debug\Rehber.Entities.dll
+C:\Users\Section1\Desktop\20-02-2019\KatmanliMVCRehber\Rehber.Entities\obj\Debug\Rehber.Entities.pdb
