@@ -60,7 +60,7 @@ namespace Rehber.MVC.Controllers
 
         //Güncelleme işlemi için sayfaya verilerimi çekicek kısım
         [HttpGet]
-        public ActionResult AdressGuncelle(int Id)
+        public ActionResult AdressGuncelle(int Id)// As per coding guidlin Id should be id so its look like  public ActionResult AdressGuncelle(int id)
         {
             ViewBag.KisiListesi = DropDownDoldur();
             var adres = _adresManager.GetAllAdres(x => x.AdresID == Id);
