@@ -1,4 +1,4 @@
-﻿using Rehber.DAL.KisiService;
+using Rehber.DAL.KisiService;
 using Rehber.Entities.Entities;
 using Rehber.MVC.Models;
 using System;
